@@ -1,0 +1,20 @@
+body {
+  direction: rtl;
+  margin: 0;
+  background-color: teal;
+	color: lightBlue;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: lightBlue;
+	color: teal;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
